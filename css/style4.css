@@ -1,27 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap");
 
 body {
-  font-family: "arima", sans-serif;
-  background-color: #e7d8c9;
+  font-family: "arima";
+  background-color: #d09b71;
 }
-
 header {
   background-color: #f1e1e5;
-  padding: 5px 10px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
-  border: 20px solid #d09b71;
-  border-radius: 20px;
-  border-width: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-  min-height: 40px;
-  border-radius: 20px;
-  height: 40px;
-  flex-wrap: nowrap;
-  /* Keep items in a single row */
+  border: 50px solid #d09b71;
+  border-radius: 30px;
+  border-width: 20px;
 }
-
 .logo h1 {
   font-family: "chewy", cursive;
   font-size: 40px;
@@ -29,9 +20,37 @@ header {
   margin: 0px;
   text-shadow: 4px 4px #a52a2a, -2px -2px #a52a2a;
 }
+.box {
+  background-color: #f1e1e5;
+  border: 15px solid #d09b71;
+  border-radius: 50px;
+  width: 50%;
+  padding: 30px;
+  margin: 0px 0px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  justify-content: space-evenly;
+  font-family: "chewy",cursive;
 
-.first {
-  width: 100%;
+}
+.box div{
+  display:flex;
+  
+}
+.box div img {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+ }
+ 
+ .content {
+  background-color: #feeddc;
+  border-radius: 20px;
+  font-family: "arima";
+  font-weight: bold;
+  font-size: 17px;
+  padding: 1px;
 }
 
 nav ul {
